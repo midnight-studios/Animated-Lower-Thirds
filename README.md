@@ -7,6 +7,19 @@
 - Added Color Sampler Tool
 - Changed switches to match OBS more closely
 
+Switch Before
+- ![image](https://github.com/midnight-studios/Animated-Lower-Thirds/assets/25770335/3574c4ec-9f8f-4038-acd2-90543411fdf2)
+
+Switch After
+-![image](https://github.com/midnight-studios/Animated-Lower-Thirds/assets/25770335/233609dc-9b41-476f-8d2e-ee79d5ee8ac5)
+
+Themes Before
+-![image](https://github.com/midnight-studios/Animated-Lower-Thirds/assets/25770335/5d667b0e-0514-48a0-9bef-525c70e0a5a4)
+
+Themes After
+-![image](https://github.com/midnight-studios/Animated-Lower-Thirds/assets/25770335/0bf2a8b0-add0-4d40-86d0-021b02d27744)
+
+
 # Animated-Lower-Thirds
 Animated Lower Thirds with dockable Control Panel - OBS Tool
 
