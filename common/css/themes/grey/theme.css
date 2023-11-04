@@ -1,61 +1,61 @@
 /*
-  Theme: Dark
-  Updated 04.11.2023 16:49
+  Theme: Grey
+  Updated 04.11.2023 17:00                                                                       
 */
 :root {
-  --obs-main-color:                     #d2d2d2;
-  --obs-main-alt-color:                 #d2d2d2;
+  --obs-main-color:                     #fff;
+  --obs-main-alt-color:                 #fff;
   --obs-placeholder-color:              #b9b9b9;
   --obs-disable-color:                  #828282;
-  --obs-element-radius:                 0.2em;
+  --obs-element-radius:                 3px;
   --obs-panel-main:                     none;
-  --obs-panel-alt-main:                 #3a393a;
-  --obs-panel:                          #3a393a;
-  --obs-panel-border:                   #1f1e1f;;
-  --obs-panel-border-width:             1px;
+  --obs-panel-alt-main:                 #2f2f2f;
+  --obs-panel:                          #2f2f2f;
+  --obs-panel-border:                   #212121;
+  --obs-panel-border-width:             0.5px;
   --obs-panel-font:                     normal 12px -apple-system, BlinkMacSystemFont, 'Open Sans', '.AppleSystemUIFont', Helvetica, Arial, 'MS Shell Dlg', sans-serif;
-  --obs-background:                     #3a393a;
-  --obs-background-alt:                 #3a393a;
-  --obs-button-background:              #4c4c4c;
-  --obs-button-alt-background:          #7a797a;
-  --obs-button-active-background:       #1f1e1f;
-  --obs-button-hover-background:        #7a797a;
-  --obs-button-hover-border:            #7a797a;
-  --obs-button-border:                  #4c4c4c;
+  --obs-background:                     #212121;
+  --obs-background-alt:                 #2f2f2f;
+  --obs-button-background:              #434343;
+  --obs-button-alt-background:          #212121;
+  --obs-button-active-background:       #434343;
+  --obs-button-hover-background:        #595959;
+  --obs-button-hover-border:            #434343;
+  --obs-button-border:                  #8cb5ff;
   --obs-button-color:                   #fff;
-  --obs-button-alt-color:               #fff;
+  --obs-button-alt-color:               #bed8f2;
   --obs-button-color-disable:           #5c5959;
-  --obs-switch-active-background:       #2196F3;
-  --obs-tooltip-color:                  #3c404b;
-  --obs-select-background:              #1f1e1f;
-  --obs-select-hover-background:        #1f1e1f;
-  --obs-select-focus-background:        #1f1e1f;
+  --obs-switch-active-background:       #8cb5ff;
+  --obs-tooltip-color:                  #212121;
+  --obs-select-background:              #434343;
+  --obs-select-hover-background:        #1f212a;
+  --obs-select-focus-background:        #1f212a;
   --obs-field-color:                    #fff;
-  --obs-field-background:               #1f1e1f;
-  --obs-field-disable-background:       #4c4c4c;
-  --obs-field-focus-border:             #3a393a;
-  --obs-field-hover-border:             #3a393a;
-  --obs-field-border:                   #3a393a;
-  --obs-scrollbar:                      #4c4c4c;
-  --obs-scrollbar-thickness:            10px;
-  --obs-scrollbar-radius:               16px;
-  --obs-tab-background:                 #4c4c4c;
-  --obs-tab-hover-background:           #7a797a;
-  --obs-tab-active-hover-background:    #7a797a;
-  --obs-tab-active-background:          #1f1e1f;
+  --obs-field-background:               #434343;
+  --obs-field-disable-background:       #212121;
+  --obs-field-focus-border:             #8cb5ff;
+  --obs-field-hover-border:             #2f2f2f;
+  --obs-field-border:                   #2f2f2f;
+  --obs-scrollbar:                      #28282a;
+  --obs-scrollbar-thickness:            7px;
+  --obs-scrollbar-radius:               0px;
+  --obs-tab-background:                 #2f2f2f;
+  --obs-tab-active-hover-background:    #434343;
+  --obs-tab-hover-background:           #434343;
+  --obs-tab-active-background:          #434343;
   --obs-tab-border:                     none;
-  --obs-tab-hover-border:               #7a797a;
-  --obs-tab-active-border:              none;
-  --obs-tab-active-hover-border:        #7a797a;
+  --obs-tab-hover-border:               #212121;
+  --obs-tab-active-border:              #fafafa;
+  --obs-tab-active-hover-border:        #d9d9d9;
   --obs-tab-separator-thickness:        3px;
   --obs-tab-appearance-margin-top:      3px;
-  --obs-tabs-separator-thickness:       1px;
+  --obs-tabs-separator-thickness:       2px;
   --obs-tabs-separator-padding-bottom:  1px;
-  --obs-tabs-separator:                 #1f1e1f;
-  --obs-checkbox-border:                #3a393a;
+  --obs-tabs-separator:                 #2f2f2f;
+  --obs-checkbox-border:                #a0a0a4;
   --obs-checkbox-hover-border:          #fff;
-  --obs-checkbox-background:            #fff;
-  --obs-checkbox-color:                 #1f1e1f;
+  --obs-checkbox-background:            #2f2f2f;
+  --obs-checkbox-color:                 #a0a0a4;
   --obs-main-active-shadow:             #0095ff;
   --obs-main-inactive-shadow:           #ff0d0d;
   --obs-main-disabled-shadow:           rgb(0 0 0 / 20%);
@@ -108,6 +108,7 @@ input + .slider::after {
   margin: 0;
   font-weight: normal;
   font: var(--obs-panel-font);
+  color: var(--obs-checkbox-color);
   width: 1.15em;
   height: 1.15em;
   border: 0.5px solid var(--obs-checkbox-border);
@@ -255,7 +256,7 @@ div[id^="alt-"][id$=-config-content] > div {
 .panel select {
   color: var(--obs-main-color);
 	background: var(--obs-select-background);
-  border: 0.5px solid var(--obs-field-border);
+  border: 0.5px solid var(--obs-field-border);    
   padding: 1px 1px 1px 5px;
 }
 .panel input {
@@ -280,7 +281,7 @@ div[id^="alt-"][id$=-config-content] > div {
 #global-configuration #theme-options #theme:focus {
   color: var(--obs-main-color);
   background-color: var(--obs-select-focus-background);
-  border: 0.5px solid var(--obs-field-focus-border);
+  border: 0.5px solid var(--obs-field-hover-border);
 }
 .number-input input[type="number"]:disabled, .number-input button:disabled,
 .panel input:disabled {
@@ -338,7 +339,7 @@ div[id^="alt-"][id$=-config-content] > div {
 
 /* LT Inactive */
 #sortable > div[id^="alt-"].sortees > div[id^="alt-"][id$=-config-content] > div {
-  box-shadow: none;
+  box-shadow: inset 0px 0px 5px 0px rgb(0 0 0 / 20%);
   padding: 5px;
   margin-bottom: 15px;
   border-radius: 3px;
