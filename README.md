@@ -1,6 +1,6 @@
 # Forked with updates
-[Original Author](https://github.com/noeal-dac/Animated-Lower-Thirds)
-[Vue migration](https://github.com/jannessm/Animated-Lower-Thirds)
+- [Original Author](https://github.com/noeal-dac/Animated-Lower-Thirds)
+- [Vue migration](https://github.com/jannessm/Animated-Lower-Thirds)
 - Fixed Several issues on Vue Migration 04.112023
 - Added Style 4
 - Updated Themes
